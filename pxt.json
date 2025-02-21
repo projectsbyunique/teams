@@ -1,15 +1,22 @@
 {
-    "name": "Untitled",
+    "name": "teams-extension - Copy",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "animation": "*",
+        "arcade-fancy-text": "github:riknoll/arcade-fancy-text#v0.1.2",
+        "pxt-button-combos": "github:jwunderl/pxt-button-combos#v0.0.24"
     },
     "files": [
         "main.blocks",
         "main.ts",
         "README.md",
         "assets.json",
-        "teamcolors.ts"
+        "teamcolors.ts",
+        "images.g.jres",
+        "images.g.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
     ],
     "testFiles": [
         "test.ts"
